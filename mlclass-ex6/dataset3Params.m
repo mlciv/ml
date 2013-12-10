@@ -42,6 +42,10 @@ sigma = 0.3;
 %C = C_values(i)
 %sigma = sigma_values(j)
 
+% the above algo will be wrong when you submit,maybe there are two same
+% min element in the matrix.
+
+
 C_vec = [0.01 0.03 0.1 0.3 1 3 10 30];
 sigma_vec = [0.01 0.03 0.1 0.3 1 3 10 30];
 error_min = realmax;
